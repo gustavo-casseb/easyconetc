@@ -1,0 +1,18 @@
+import 'package:flutter/material.dart';
+
+class HomePage extends StatelessWidget {
+  const HomePage({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text('Tela Principal'),
+        backgroundColor: Colors.deepPurple,
+      ),
+      body: Center(
+        child: const Text('Bem-vindo à tela principal!', style: TextStyle(fontSize: 24)),
+      ),
+    );
+  }
+}
